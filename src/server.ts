@@ -4,7 +4,7 @@ import initDB from "./config/db";
 
 async function main() {
   try {
-    initDB();
+    await initDB();
     app.listen(config.port, () => {
       console.log(`vehicle rental server is running on port ${config.port}`);
     });
