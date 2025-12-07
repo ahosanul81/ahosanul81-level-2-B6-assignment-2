@@ -60,3 +60,7 @@ Create a `.env` file:
 PORT=5000
 CONNECTION_STR=postgres
 JWTSECRET=yourpassword
+
+## Home Route
+
+- https://vehicle-rental-server-five.vercel.app/api/v1
